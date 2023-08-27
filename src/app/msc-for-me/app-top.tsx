@@ -23,7 +23,7 @@ export default function ApplicationTop() {
 
         <div className="md:pt-8">
           <div className='flex flex-col justify-center'>
-            <p className="text-xl text-center font-bold text-indigo-500 md:text-left">What is "MSC for Me?"</p>
+            <p className="text-xl text-center font-bold text-indigo-500 md:text-left">What is [MSC for Me?]</p>
             <h1 className="mb-4 text-center text-3xl font-semibold text-gray-900 sm:text-4xl md:mb-6 md:text-left">船内で利用できるスマホアプリ</h1>
             <ul className="space-y-4 text-left text-gray-900 mb-10">
               <li className="flex items-center space-x-3">
