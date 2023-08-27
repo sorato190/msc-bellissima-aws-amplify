@@ -1,0 +1,23 @@
+'use client'
+import NextImage from 'next/image'
+import { useInView } from 'react-intersection-observer';
+import ApplicationTop from './app-top';
+import ApplicationGallery from './app-gallery';
+
+export default function MscForMe() {
+
+  const { ref, inView } = useInView({
+    // ref要素が現れてから50px過ぎたら
+    // rootMargin: "-100px",
+    threshold: 0.6,
+    // 最初の一度だけ実行
+    // triggerOnce: true,
+  });
+
+  return (
+    <>
+      <ApplicationTop />
+      <ApplicationGallery />
+    </>
+  )
+}
