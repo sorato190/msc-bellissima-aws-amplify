@@ -1,5 +1,5 @@
 'use client'
-import NextImage from 'next/image'
+
 import { useInView } from 'react-intersection-observer';
 import ApplicationTop from './app-top';
 import ApplicationGallery from './app-gallery';

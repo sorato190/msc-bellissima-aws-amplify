@@ -1,6 +1,6 @@
 'use client'
 import { useInView } from 'react-intersection-observer';
-import NextImage from 'next/image'
+
 
 export default function Theater() {
 
@@ -27,7 +27,7 @@ export default function Theater() {
       <div className="h-200 grid gap-6 sm:grid-cols-2">
         {/* <!-- product - start --> */}
         <div className="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-          <NextImage src="/facility/facility-theater-1.jpg" width={600} height={500} loading="lazy" alt="Photo by Fakurian Design" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src="/facility/facility-theater-1.jpg" loading="lazy" alt="Photo by Fakurian Design" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
@@ -40,7 +40,7 @@ export default function Theater() {
 
         {/* <!-- product - start --> */}
         <div className="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-          <NextImage src="/facility/facility-casino-1.jpg" width={600} height={500} loading="lazy" alt="Photo by Fakurian Design" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src="/facility/facility-casino-1.jpg" loading="lazy" alt="Photo by Fakurian Design" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
           <div className="relative flex flex-col">

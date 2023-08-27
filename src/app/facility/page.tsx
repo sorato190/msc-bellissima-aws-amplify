@@ -1,5 +1,5 @@
 'use client'
-import NextImage from 'next/image'
+
 import { useInView } from 'react-intersection-observer';
 import DeckMap from './deckmap';
 import Cabin from './cabin';

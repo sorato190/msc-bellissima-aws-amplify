@@ -1,6 +1,6 @@
 'use client'
 import { useInView } from 'react-intersection-observer';
-import NextImage from 'next/image'
+
 
 export default function ApplicationGallery() {
 
@@ -25,21 +25,21 @@ export default function ApplicationGallery() {
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
         {/* <!-- image - start --> */}
         <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
-          <NextImage src="/msc-for-me/msc-for-me-2.jpg" width={600} height={500} loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
+          <img src="/msc-for-me/msc-for-me-2.jpg" loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
         </a>
         {/* <!-- image - end --> */}
 
         {/* <!-- image - start --> */}
         <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
-          <NextImage src="/msc-for-me/msc-for-me-3.jpg" width={600} height={500} loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
+          <img src="/msc-for-me/msc-for-me-3.jpg" loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
         </a>
         {/* <!-- image - end --> */}
 
         {/* <!-- image - start --> */}
         <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
-          <NextImage src="/msc-for-me/msc-for-me-4.jpg" width={600} height={500} loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
+          <img src="/msc-for-me/msc-for-me-4.jpg" loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
         </a>
         {/* <!-- image - end --> */}
@@ -47,21 +47,21 @@ export default function ApplicationGallery() {
       <div className="mt-24 grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
         {/* <!-- image - start --> */}
         <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
-          <NextImage src="/msc-for-me/msc-for-me-5.jpg" width={600} height={500} loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
+          <img src="/msc-for-me/msc-for-me-5.jpg" loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
         </a>
         {/* <!-- image - end --> */}
 
         {/* <!-- image - start --> */}
         <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
-          <NextImage src="/msc-for-me/msc-for-me-6.jpg" width={600} height={500} loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
+          <img src="/msc-for-me/msc-for-me-6.jpg" loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
         </a>
         {/* <!-- image - end --> */}
 
         {/* <!-- image - start --> */}
         <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
-          <NextImage src="/msc-for-me/msc-for-me-7.jpg" width={600} height={500} loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
+          <img src="/msc-for-me/msc-for-me-7.jpg" loading="lazy" alt="Photo by Martin Sanchez" className="w-full object-cover object-center" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
         </a>
         {/* <!-- image - end --> */}

@@ -1,6 +1,6 @@
 'use client'
 import { useInView } from 'react-intersection-observer';
-import NextImage from 'next/image'
+
 
 export default function ApplicationTop() {
 
@@ -17,7 +17,7 @@ export default function ApplicationTop() {
       <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
         <div>
           <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
-            <NextImage src="/msc-for-me/msc-for-me-1.jpg" width={600} height={500} loading="lazy" alt="Photo by Martin Sanchez" className="h-full w-full object-cover object-center" />
+            <img src="/msc-for-me/msc-for-me-1.jpg" loading="lazy" alt="Photo by Martin Sanchez" className="h-full w-full object-cover object-center" />
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 'use client'
 import { useInView } from 'react-intersection-observer';
-import NextImage from 'next/image'
+
 
 export default function Promenade() {
 
@@ -23,24 +23,24 @@ export default function Promenade() {
         <div className="flex flex-wrap md:-m-2 -m-1">
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-1/2">
-              <NextImage src="/facility/facility-promenade-1.jpg" width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" />
+              <img src="/facility/facility-promenade-1.jpg" width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" />
             </div>
             <div className="md:p-2 p-1 w-1/2">
-              <NextImage src="/facility/facility-promenade-2.jpg" width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" />
+              <img src="/facility/facility-promenade-2.jpg" width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" />
             </div>
             <div className="md:p-2 p-1 w-full">
-              <NextImage src="/facility/facility-promenade-3.jpg" width={600} height={400} alt="gallery" className="w-full object-cover h-full object-center block" />
+              <img src="/facility/facility-promenade-3.jpg" width={600} height={400} alt="gallery" className="w-full object-cover h-full object-center block" />
             </div>
           </div>
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-full">
-              <NextImage src="/facility/facility-chocolate-1.jpg" width={600} height={500} alt="gallery" className="w-full object-cover h-full object-center block" />
+              <img src="/facility/facility-chocolate-1.jpg" alt="gallery" className="w-full object-cover h-full object-center block" />
             </div>
             <div className="md:p-2 p-1 w-1/2">
-              <NextImage src="/facility/facility-chocolate-2.jpg" width={600} height={500} alt="gallery" className="w-full object-cover h-full object-center block" />
+              <img src="/facility/facility-chocolate-2.jpg" alt="gallery" className="w-full object-cover h-full object-center block" />
             </div>
             <div className="md:p-2 p-1 w-1/2">
-              <NextImage src="/facility/facility-shopping-1.jpg" width={600} height={500} alt="gallery" className="w-full object-cover h-full object-center block" />
+              <img src="/facility/facility-shopping-1.jpg" alt="gallery" className="w-full object-cover h-full object-center block" />
             </div>
           </div>
         </div>

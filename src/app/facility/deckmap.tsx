@@ -1,6 +1,6 @@
 'use client'
 import { useInView } from 'react-intersection-observer';
-import NextImage from 'next/image'
+
 
 export default function DeckMap() {
 
@@ -19,7 +19,7 @@ export default function DeckMap() {
           <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
             <div>
               <div className="h-64 overflow-hidden mt-20 rounded-lg bg-gray-100 shadow-lg md:h-auto">
-                <NextImage src="/facility/facility-1.jpg" width={600} height={500} loading="lazy" alt="Photo by Kaung Htet" className="h-full w-full object-cover object-center" />
+                <img src="/facility/facility-1.jpg" loading="lazy" alt="Photo by Kaung Htet" className="h-full w-full object-cover object-center" />
               </div>
             </div>
             <div className="md:pt-8">
