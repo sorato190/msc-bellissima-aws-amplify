@@ -77,7 +77,7 @@ const config: Config = {
           "0%": {
               transform: "rotateX(-100deg)",
               "transform-origin": "top",
-              opacity: "0"
+              opacity: "0.2"
           },
           to: {
               transform: "rotateX(0deg)",
