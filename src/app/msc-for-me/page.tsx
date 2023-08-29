@@ -3,6 +3,7 @@
 import { useInView } from 'react-intersection-observer';
 import ApplicationTop from './app-top';
 import ApplicationGallery from './app-gallery';
+import ApplicationComment from './app-comment';
 
 export default function MscForMe() {
 
@@ -18,6 +19,7 @@ export default function MscForMe() {
     <>
       <ApplicationTop />
       <ApplicationGallery />
+      <ApplicationComment />
     </>
   )
 }

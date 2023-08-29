@@ -17,7 +17,7 @@ export default function Buffet() {
           <h2 className="mb-4 text-center text-4xl font-bold text-gray-800 md:mb-6 sm:text-5xl md:mb-8 md:text-6xl">Deck 15 Buffet</h2>
         </div>
         <div className={inView ? "animate-slide-top" : "invisible"} ref={ref}>
-          <p className="mx-auto max-w-screen-md text-gray-900 md:text-lg">ビュッフェスペースはかなり広くて料理の種類も豊富。ハンバーガーとフライドポテト、日本食、イタリアンなど色々あるので飽きなかった。<br />水、コーヒー、牛乳、ジュース(数種類)は無料。05:00 - 23:00頃まで空いているので終日航海の日はここで読書をすることも。仕事してる人や、夏休みの宿題をする子供もいた。</p>
+          <p className="mx-auto max-w-screen-lg text-gray-900 md:text-xl">ビュッフェスペースはかなり広くて料理の種類も豊富。ハンバーガーとフライドポテト、日本食、イタリアンなど色々あるので飽きなかった。<br />水、コーヒー、牛乳、ジュース(数種類)は無料。05:00 - 23:00頃まで空いているので終日航海の日はここで読書をすることも。仕事してる人や、夏休みの宿題をする子供もいた。</p>
         </div>
       </div>
       {/* <!-- text - end --> */}

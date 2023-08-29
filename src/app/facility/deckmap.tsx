@@ -18,11 +18,11 @@ export default function DeckMap() {
         <div className="mx-auto max-w-screen-xl px-4 md:px-8">
           <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
             <div>
-              <div className="h-64 overflow-hidden mt-20 rounded-lg bg-gray-100 shadow-lg md:h-auto">
+              <div className="animate-slide-in-left h-64 overflow-hidden mt-20 rounded-lg bg-gray-100 shadow-lg md:h-auto">
                 <img src="/facility/facility-1.jpg" loading="lazy" alt="Photo by Kaung Htet" className="h-full w-full object-cover object-center" />
               </div>
             </div>
-            <div className="md:pt-8">
+            <div className="animate-slide-in-right md:pt-8">
               <div className="flex flex-col">
                 <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                   <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
@@ -98,6 +98,6 @@ export default function DeckMap() {
             </div>
           </div>
         </div>
-      </div></>
+      </div ></>
   );
 }

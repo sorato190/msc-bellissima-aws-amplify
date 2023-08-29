@@ -14,14 +14,14 @@ export default function ApplicationTop() {
       <div className={inView ? "animate-tracking-in-expand mt-15 h-24 w-full flex justify-center items-center" : "mt-15 h-24 invisible"} ref={ref}>
         <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-6xl">MSC for Me</h1>
       </div>
-      <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
+      <div className="mt-16 grid gap-8 md:grid-cols-2 lg:gap-12">
         <div>
-          <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
-            <img src="/msc-for-me/msc-for-me-1.jpg" loading="lazy" alt="Photo by Martin Sanchez" className="h-full w-full object-cover object-center" />
+          <div className="animate-slide-in-left overflow-hidden rounded-lg bg-gray-100 shadow-lg">
+            <img src="/msc-for-me/msc-for-me-1.jpg" loading="lazy" alt="Photo by Sorato Ozaki" className="h-full w-full object-cover object-center" />
           </div>
         </div>
 
-        <div className="md:pt-8">
+        <div className="animate-slide-in-right md:pt-8">
           <div className='flex flex-col justify-center'>
             <p className="text-xl text-center font-bold text-indigo-500 md:text-left">What is [MSC for Me?]</p>
             <h1 className="mb-4 text-center text-3xl font-semibold text-gray-900 sm:text-4xl md:mb-6 md:text-left">船内で利用できるスマホアプリ</h1>
@@ -63,7 +63,7 @@ export default function ApplicationTop() {
                 <span className='leading-relaxed text-xl'>チャット</span>
               </li>
             </ul>
-            <p className="max-w-md leading-relaxed text-gray-900 xl:text-lg">
+            <p className="max-w-md leading-relaxed text-gray-900 xl:text-xl">
               船内にはWiFiのフリースポットがあり、AndroidやIOSのアプリストアからダウンロードした「MSC for ME」を利用できる。<br /><br />
               インターネットには繋がっておらず、インターネットにアクセスするには有料のインターネットパッケージを購入する必要がある。<br /><br />
               チャット機能があるので、離れていてもコミュニケーションは可能。キャビン番号と名前を入力することでチャットできる人を追加することができる。<br /><br />

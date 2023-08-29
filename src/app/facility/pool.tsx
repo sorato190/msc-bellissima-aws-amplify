@@ -17,7 +17,7 @@ export default function Pool() {
           <h2 className="mb-4 text-center text-4xl font-bold text-gray-800 md:mb-6 sm:text-5xl md:mb-8 md:text-6xl">Deck 15 Pool</h2>
         </div>
         <div className={inView ? "animate-slide-top" : "invisible"} ref={ref}>
-          <p className="mx-auto max-w-screen-md text-gray-900 md:text-lg text-center">
+          <p className="mx-auto max-w-screen-lg text-gray-900 md:text-xl text-center">
             いちおう水着を持っていってたが、一度も入らなかった。</p>
         </div>
       </div>
