@@ -12,7 +12,7 @@ export default function ApplicationTop() {
     <>
       {/* 客室紹介 */}
       <div className={inView ? "animate-tracking-in-expand mt-15 h-24 w-full flex justify-center items-center" : "mt-15 h-24 invisible"} ref={ref}>
-        <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-6xl">MSC for Me</h1>
+        <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-6xl">MSC for me</h1>
       </div>
       <div className="mt-16 grid gap-8 md:grid-cols-2 lg:gap-12">
         <div>
@@ -23,7 +23,7 @@ export default function ApplicationTop() {
 
         <div className="animate-slide-in-right md:pt-8">
           <div className='flex flex-col justify-center'>
-            <p className="text-xl text-center font-bold text-indigo-500 md:text-left">What is [MSC for Me?]</p>
+            <p className="text-xl text-center font-bold text-indigo-500 md:text-left">What is [MSC for me]?</p>
             <h1 className="mb-4 text-center text-3xl font-semibold text-gray-900 sm:text-4xl md:mb-6 md:text-left">船内で利用できるスマホアプリ</h1>
             <ul className="space-y-4 text-left text-gray-900 mb-10">
               <li className="flex items-center space-x-3">

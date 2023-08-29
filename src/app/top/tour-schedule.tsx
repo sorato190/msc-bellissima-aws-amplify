@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 export default function TourSchedule() {
 
   const { ref, inView } = useInView({
-    threshold: 0.8,
+    threshold: 0.6,
     // triggerOnce: true
   });
 
