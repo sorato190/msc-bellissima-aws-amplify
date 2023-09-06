@@ -27,6 +27,7 @@ export default function Header() {
         {/* <!-- nav - start --> */}
         <nav className="hidden gap-12 lg:flex 2xl:ml-16">
           <Link className={`text-lg font-semibold ${isActiveLink('/')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/'>TOP</Link>
+          <Link className={`text-lg font-semibold ${isActiveLink('/gallery')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/gallery'>Gallery</Link>
           <Link className={`text-lg font-semibold ${isActiveLink('/facility')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/facility'>Facility</Link>
           <Link className={`text-lg font-semibold ${isActiveLink('/msc-for-me')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/msc-for-me'>Aplication</Link>
           <Link className={`text-lg font-semibold ${isActiveLink('/built-on-aws')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/built-on-aws'>Built on AWS</Link>
