@@ -1,14 +1,16 @@
 'use client'
 import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
+import { useState } from 'react';
 
 export default function Header() {
 
+  const [openMenu, setOpenMenu] = useState(false);
   const currPath = usePathname();
   const isActiveLink = (path: string) => {
     return currPath === path ? 'text-indigo-500' : 'text-gray-900';
   };
-  // console.log(currPath)
+  const handleMenuOpen = () => { setOpenMenu(!openMenu) }
 
 
   return (
@@ -19,14 +21,60 @@ export default function Header() {
           <svg width="95" height="94" viewBox="0 0 95 94" className="h-auto w-6 text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path d="M96 0V47L48 94H0V47L48 0H96Z" />
           </svg>
-
           MSC Bellissima Tour
         </a>
         {/* <!-- logo - end --> */}
 
-        {/* <!-- nav - start --> */}
+        {/* <!-- nav - sm start --> */}
+        <button onClick={handleMenuOpen} type="button" className="z-10 ml-32 space-y-2 lg:hidden">
+          <div
+            className={
+              openMenu
+                ? "w-8 h-0.5 bg-gray-600 translate-y-2.5 rotate-45 transition duration-500 ease-in-out"
+                : "w-8 h-0.5 bg-gray-600 transition duration-500 ease-in-out"
+            }
+          />
+          <div
+            className={
+              openMenu
+                ? "opacity-0 transition duration-500 ease-in-out"
+                : "w-8 h-0.5 bg-gray-600 transition duration-500 ease-in-out"
+            }
+          />
+          <div
+            className={
+              openMenu
+                ? "w-8 h-0.5 bg-gray-600 -rotate-45 transition duration-500 ease-in-out"
+                : "w-8 h-0.5 bg-gray-600 transition duration-500 ease-in-out"
+            }
+          />
+        </button>
+        <nav
+          className={
+            openMenu
+              ? "text-left fixed bg-slate-50 right-0 top-0 w-8/12 h-screen flex flex-col justify-start pt-8 px-3 ease-linear duration-300"
+              : "fixed right-[-100%] ease-linear duration-300"
+          }
+        >
+          <ul className="mt-6">
+            <li>
+              <Link className={`text-lg font-semibold ${isActiveLink('/gallery')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/gallery'>Gallery</Link>
+            </li>
+            <li>
+              <Link className={`text-lg font-semibold ${isActiveLink('/facility')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/facility'>Facility</Link>
+            </li>
+            <li>
+              <Link className={`text-lg font-semibold ${isActiveLink('/msc-for-me')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/msc-for-me'>Aplication</Link>
+            </li>
+            <li>
+              <Link className={`text-lg font-semibold ${isActiveLink('/built-on-aws')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/built-on-aws'>Built on AWS</Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* <!-- nav - lg --> */}
         <nav className="hidden gap-12 lg:flex 2xl:ml-16">
-          <Link className={`text-lg font-semibold ${isActiveLink('/')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/'>TOP</Link>
+          {/* <Link className={`text-lg font-semibold ${isActiveLink('/')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/'>TOP</Link> */}
           <Link className={`text-lg font-semibold ${isActiveLink('/gallery')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/gallery'>Gallery</Link>
           <Link className={`text-lg font-semibold ${isActiveLink('/facility')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/facility'>Facility</Link>
           <Link className={`text-lg font-semibold ${isActiveLink('/msc-for-me')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/msc-for-me'>Aplication</Link>

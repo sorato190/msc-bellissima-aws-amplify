@@ -17,8 +17,8 @@ export default function Ishinomaki() {
       {/* デッキ15 ビュッフェの紹介 */}
       {/* <!-- text - start --> */}
       <div className="mt-16 mb-16">
-        <div className={inView ? "animate-tracking-in-contract-bck-bottom" : "invisible"} ref={ref}>
-          <h2 className="mb-4 text-center text-4xl font-bold text-gray-800 md:mb-6 sm:text-5xl md:mb-8 md:text-6xl">8/3 石巻</h2>
+        <div className={inView ? "animate-tracking-in-contract-bck-bottom" : "nvisible"} ref={ref}>
+          <h2 className="mb-4 text-center text-3xl md:text-4xl font-bold text-gray-800 md:mb-6 sm:text-5xl md:mb-8 md:text-6xl">8/3 石巻</h2>
         </div>
         <div className={inView ? "animate-slide-top" : "invisible"} ref={ref}>
           <p className="mx-auto text-center max-w-screen-lg text-gray-900 md:text-xl">石巻は宮城県だが、実際にはお隣岩手県の中尊寺金色堂までレンタカーでドライブ<br />

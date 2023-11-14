@@ -11,7 +11,7 @@ export default function TourTimeline() {
 
   return (
     <>
-      <ol className={inView ? "animate-slide-in-right border-l-2 border-blue-700 dark:border-primary-500" : "invisible"} ref={ref}>
+      <ol className={inView ? "md:animate-slide-in-right border-l-2 border-blue-700 dark:border-primary-500" : "md:invisible"} ref={ref}>
         <li>
           <div className="flex-start flex items-center">
             <div

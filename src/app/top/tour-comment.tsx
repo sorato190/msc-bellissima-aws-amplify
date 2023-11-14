@@ -11,7 +11,7 @@ export default function TourComment() {
 
   return (
     <>
-      <p className={inView ? "animate-tracking-in-expand w-full text-gray-800 xl:text-2xl" : "invisible"} ref={ref}>
+      <p className={inView ? "md: w-full text-gray-800 xl:text-2xl" : "md:invisible"} ref={ref}>
         各寄港地ごとに観光地を巡るオプショナルツアーは旅行代理店経由で購入することができる。寄港地ごとに大体1人1万円程度。<br />
         ツアーに申し込んでいない場合、事前の案内では各寄港地で乗下船に2時間程度かかる可能性があると案内があった。<br /><br />
         今回参加したクルーズは人が少なかったのかツアーに申し込んでいなくても30分以内に下船することができた。<br />

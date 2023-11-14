@@ -12,12 +12,12 @@ export default function TourSchedule() {
   return (
     <>
       {/* ツアー工程の紹介 */}
-      <div className={inView ? "animate-tracking-in-contract-bck-bottom" : "invisible"} ref={ref}>
+      <div className={inView ? "md:animate-tracking-in-contract-bck-bottom" : "md:invisible"} ref={ref}>
         <div className="h-48 w-full flex justify-center items-center">
           <h1 className="text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl">Tour Schedule</h1>
         </div>
       </div>
-      <div className={inView ? "animate-slide-right" : "invisible"} ref={ref}>
+      <div className={inView ? "md:animate-slide-right" : "md:invisible"} ref={ref}>
         {/* 台風の影響 */}
         <div className="mb-8 flex flex-wrap justify-between md:mb-16">
           <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/4 lg:pb-24 lg:pt-48">
