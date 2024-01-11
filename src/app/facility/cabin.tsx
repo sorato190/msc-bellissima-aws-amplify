@@ -14,9 +14,9 @@ export default function Cabin() {
       <section className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="mb-8 flex flex-wrap justify-between md:mb-16">
           <div ref={ref} className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
-            <h1 className={inView ? "animate-tracking-in-expand mb-4 text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl" : "invisible"}>Cabin Deck 12</h1>
+            <h1 className={inView ? "animate-tracking-in-expand mb-4 text-2xl md:text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl" : "invisible"}>Cabin Deck 12</h1>
 
-            <p className={inView ? "animate-slide-top max-w-md leading-relaxed text-gray-900 xl:text-xl" : "invisible"}>
+            <p className={inView ? "md:animate-slide-top max-w-md leading-relaxed text-gray-900 text-base xl:text-xl" : "invisible"}>
               デッキ12の海側バルコニー客室。<br />
               海が見えるバルコニーがついてて良かったが、日中は部屋にいないので海が見れなくてもいいかも。</p>
           </div>

@@ -13,16 +13,16 @@ export default function TourSchedule() {
     <>
       {/* ツアー工程の紹介 */}
       <div className={inView ? "md:animate-tracking-in-contract-bck-bottom" : "md:invisible"} ref={ref}>
-        <div className="h-48 w-full flex justify-center items-center">
-          <h1 className="text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl">Tour Schedule</h1>
+        <div className="h-24 lg:h-48 w-full flex justify-center items-center">
+          <h1 className="text-2xl font-bold text-black sm:text-3xl md:mb-8 md:text-6xl">Tour Schedule</h1>
         </div>
       </div>
       <div className={inView ? "md:animate-slide-right" : "md:invisible"} ref={ref}>
         {/* 台風の影響 */}
         <div className="mb-8 flex flex-wrap justify-between md:mb-16">
           <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/4 lg:pb-24 lg:pt-48">
-            <h1 className="mb-4 text-4xl font-bold text-black sm:text-4xl md:mb-8 md:text-5xl">台風6号の影響</h1>
-            <p className="mx-auto max-w-screen-lg text-gray-900 md:text-4xl text-center">
+            <h1 className="mb-4 text-2xl text-black sm:text-3xl md:mb-8 md:text-5xl">台風6号の影響</h1>
+            <p className="mx-auto max-w-screen-lg text-gray-900 text-xl md:text-3xl text-center">
               航路が変更に！</p>
           </div>
 

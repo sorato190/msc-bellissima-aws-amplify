@@ -18,7 +18,7 @@ export default function ShipSpec() {
         <div className="mb-20 md:pt-8">
           <div className="flex flex-col">
             <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-              <table className="min-w-full text-center text-2xl font-light">
+              <table className="min-w-full text-center text-lg sm:text-2xl font-light">
                 <thead className="border-b font-medium dark:border-neutral-500">
                   <tr>
                     <th scope="col" className="px-3 py-2"></th>
@@ -28,52 +28,53 @@ export default function ShipSpec() {
                 </thead>
                 <tbody>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-4 py-2 font-medium">
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                       総トン数
                     </td>
-                    <td className="whitespace-nowrap px-4 py-2">171,598t</td>
-                    <td className="whitespace-nowrap px-4 py-2">50,444t</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">171,598t</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">50,444t</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-4 py-2 font-medium">
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                       全長
                     </td>
-                    <td className="whitespace-nowrap px-4 py-2">315m</td>
-                    <td className="whitespace-nowrap px-4 py-2">241m</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">315m</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">241m</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-4 py-2 font-medium">
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                       就航年
                     </td>
-                    <td className="whitespace-nowrap px-4 py-2">2019年3月</td>
-                    <td className="whitespace-nowrap px-4 py-2">2006年2月</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">2019年3月</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">2006年2月</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-4 py-2 font-medium">
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                       乗客定員
                     </td>
-                    <td className="whitespace-nowrap px-4 py-2">5686名</td>
-                    <td className="whitespace-nowrap px-4 py-2">872名</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">5686名</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">872名</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-4 py-2 font-medium">
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                       客室数
                     </td>
-                    <td className="whitespace-nowrap px-4 py-2">2217室</td>
-                    <td className="whitespace-nowrap px-4 py-2">436室 (ルートイン屋島は173部屋)</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">2217室</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">436室</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-4 py-2 font-medium">
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                       デッキ数
                     </td>
-                    <td className="whitespace-nowrap px-4 py-2">19</td>
-                    <td className="whitespace-nowrap px-4 py-2">9</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">19</td>
+                    <td className="whitespace-nowrap px-2 md:px-4 py-2">9</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
         </div>
+
       </div>
     </>
   )
