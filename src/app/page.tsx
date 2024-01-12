@@ -10,16 +10,7 @@ import TourComment from './top/tour-comment';
 
 export default function Home() {
 
-  const { ref, inView } = useInView({
-    // ref要素が現れてから50px過ぎたら
-    // rootMargin: "-100px",
-    threshold: 0.6,
-    // 最初の一度だけ実行
-    // triggerOnce: true,
-  });
-
   return (
-
     <>
       <Top />
       <ShipSpec />
@@ -27,7 +18,5 @@ export default function Home() {
       <TourTimeline />
       <TourComment />
     </>
-
-
   )
 }

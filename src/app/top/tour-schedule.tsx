@@ -10,7 +10,7 @@ export default function TourSchedule() {
   });
 
   return (
-    <>
+    <div className='mx-10'>
       {/* ツアー工程の紹介 */}
       <div className={inView ? "md:animate-tracking-in-contract-bck-bottom" : "md:invisible"} ref={ref}>
         <div className="h-24 lg:h-48 w-full flex justify-center items-center">
@@ -37,6 +37,6 @@ export default function TourSchedule() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }

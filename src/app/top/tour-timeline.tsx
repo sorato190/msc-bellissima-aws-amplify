@@ -10,7 +10,7 @@ export default function TourTimeline() {
   });
 
   return (
-    <>
+    <div className='mx-10'>
       <ol className={inView ? "md:animate-slide-in-right border-l-2 border-blue-700 dark:border-primary-500" : "md:invisible"} ref={ref}>
         <li>
           <div className="flex-start flex items-center">
@@ -172,6 +172,6 @@ export default function TourTimeline() {
           </div>
         </li>
       </ol>
-    </>
+    </div>
   )
 }

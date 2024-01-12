@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         <div className="bg-white pb-6 sm:pb-8 lg:pb-12">
-          <section className="mx-auto max-w-screen-2xl px-4 md:px-8 h-full">
+          <section className="mx-auto max-w-screen-2xl h-full">
             {children}
           </section >
         </div >

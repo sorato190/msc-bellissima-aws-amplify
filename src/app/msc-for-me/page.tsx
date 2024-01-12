@@ -16,10 +16,10 @@ export default function MscForMe() {
   });
 
   return (
-    <>
+    <div className='mx-5 md:mx-10'>
       <ApplicationTop />
       <ApplicationGallery />
       <ApplicationComment />
-    </>
+    </div>
   )
 }

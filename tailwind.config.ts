@@ -13,8 +13,15 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        lora: ['var(--font-lora)'],
+        kenia: ['var(--font-kenia)'],
+        dancing: ['var(--font-dancing)'],
+      },
       animation: {
         "tracking-in-expand": "tracking-in-expand 1.5s cubic-bezier(0.165, 0.840, 0.440, 1.000)   both",
+        "fade-in": "fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000)   both",
         "slide-top": "slide-top 1.0s cubic-bezier(0.215, 0.610, 0.355, 1.000)    both",
         "slide-right": "slide-right 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
         "slide-left": "slide-left 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
@@ -37,6 +44,14 @@ const config: Config = {
                 opacity: "1"
             }
         },
+        "fade-in": {
+          "0%": {
+              opacity: "0"
+          },
+          to: {
+              opacity: "1"
+          }
+      },
         "slide-top": {
           "0%": {
               transform: "translateY(-100px)"

@@ -19,13 +19,13 @@ export default function Facility() {
   });
 
   return (
-    <>
+    <div className='mx-5 md:mx-10'>
       <DeckMap />
       <Cabin />
       <Promenade />
       <Theater />
       <Buffet />
       <Pool />
-    </>
+    </div>
   )
 }
