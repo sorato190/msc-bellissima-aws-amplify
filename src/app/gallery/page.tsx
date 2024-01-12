@@ -18,12 +18,12 @@ export default function Gallery() {
   });
 
   return (
-    <div className='mx-5 md:mx-10'>
+    <>
       <Ishinomaki />
       <Miyako />
       <Aomori />
       <Korea />
       <Sapporo />
-    </div>
+    </>
   )
 }

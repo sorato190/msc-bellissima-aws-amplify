@@ -15,15 +15,24 @@ export default function Miyako() {
   return (
     <>
       {/* デッキ15 ビュッフェの紹介 */}
+      {/* <!-- title - start --> */}
+      <div className="mt-5 mb-5 md:mt-8 md:mb-8">
+        <div className={inView ? "animate-tracking-in-expand" : "nvisible"} ref={ref}>
+          <h2 className="flex flex-row flex-nowrap items-center mt-24">
+            <span className="flex-grow block border-t border-blue-700"></span>
+            <span className="font-lora flex-none block mx-10 px-6 py-2.5 text-xl rounded leading-none font-medium bg-sky-500 text-white">
+              2023/08/04 宮古
+            </span>
+            <span className="flex-grow block border-t border-blue-700"></span>
+          </h2>
+        </div>
+      </div>
+      {/* <!-- title - end --> */}
+
       {/* <!-- text - start --> */}
-      <div className="mt-16 mb-16">
-        <div className={inView ? "animate-tracking-in-contract-bck-bottom" : "invisible"} ref={ref}>
-          <h2 className="mb-4 text-center text-3xl md:text-4xl font-bold text-gray-800 md:mb-6 sm:text-5xl md:mb-8 md:text-6xl">8/4 宮古</h2>
-        </div>
-        <div className={inView ? "animate-slide-top" : "invisible"} ref={ref}>
-          <p className="mx-auto text-center max-w-screen-lg text-gray-900 md:text-xl">オプショナルツアーで有名どころを観光<br />
-            浄土ヶ浜、日本三大鍾乳洞の「龍泉洞」など。ホテルで昼食を食べたが、宮古として瓶に詰められた海鮮を売り出し中らしい。美味しかった。</p>
-        </div>
+      <div className={inView ? "animate-slide-top" : "invisible"} ref={ref}>
+        <p className="mx-auto text-center max-w-screen-lg text-gray-900 md:text-xl">オプショナルツアーで有名どころを観光<br />
+          浄土ヶ浜、日本三大鍾乳洞の「龍泉洞」など。ホテルで昼食を食べたが、宮古として瓶に詰められた海鮮を売り出し中らしい。美味しかった。</p>
       </div>
       {/* <!-- text - end --> */}
 

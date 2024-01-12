@@ -15,14 +15,24 @@ export default function Sapporo() {
   return (
     <>
       {/* デッキ15 ビュッフェの紹介 */}
+
+      {/* <!-- title - start --> */}
+      <div className="mt-5 mb-5 md:mt-8 md:mb-8">
+        <div className={inView ? "animate-tracking-in-expand" : "nvisible"} ref={ref}>
+          <h2 className="flex flex-row flex-nowrap items-center mt-24">
+            <span className="flex-grow block border-t border-blue-700"></span>
+            <span className="font-lora flex-none block mx-10 px-6 py-2.5 text-xl rounded leading-none font-medium bg-sky-500 text-white">
+              2023/08/09 札幌
+            </span>
+            <span className="flex-grow block border-t border-blue-700"></span>
+          </h2>
+        </div>
+      </div>
+      {/* <!-- title - end --> */}
+
       {/* <!-- text - start --> */}
-      <div className="mt-16 mb-16">
-        <div className={inView ? "animate-tracking-in-contract-bck-bottom" : "invisible"} ref={ref}>
-          <h2 className="mb-4 text-center text-3xl md:text-4xl font-bold text-gray-800 md:mb-6 sm:text-5xl md:mb-8 md:text-6xl">8/9 札幌</h2>
-        </div>
-        <div className={inView ? "animate-slide-top" : "invisible"} ref={ref}>
-          <p className="mx-auto text-center max-w-screen-lg text-gray-900 md:text-xl">室蘭に寄港したが札幌を散策</p>
-        </div>
+      <div className={inView ? "animate-slide-top" : "invisible"} ref={ref}>
+        <p className="mx-auto text-center max-w-screen-lg text-gray-900 md:text-xl">室蘭に寄港したが札幌を散策</p>
       </div>
       {/* <!-- text - end --> */}
 
