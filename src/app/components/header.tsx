@@ -2,11 +2,12 @@
 import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { Lora, Kenia, Dancing_Script } from '@next/font/google'
+import { Lora, Kenia, Dancing_Script, Noto_Sans_JP } from '@next/font/google'
 
 const lora = Lora({ subsets: ['latin'] })
 const dancing = Dancing_Script({ subsets: ['latin'] })
 const kenia = Kenia({ weight: '400', subsets: ['latin'] })
+const notoj = Noto_Sans_JP({ subsets: ['latin'] })
 
 export default function Header() {
 
@@ -23,17 +24,18 @@ export default function Header() {
       <style jsx global>
         {`
           :root {
+            --font-notoj: ${notoj.style.fontFamily};
             --font-lora: ${lora.style.fontFamily};
             --font-kenia: ${kenia.style.fontFamily};
             --font-dancing: ${dancing.style.fontFamily};
           }
         `}
       </style>
-      <header className="z-50 border-b sticky top-0">
-        <div className="bg-white bg-opacity-70 lg:mx-auto flex max-w-screen-2xl items-center justify-between">
+      <header className="z-50 border-b sticky top-0 bg-gray-100">
+        <div className="bg-white bg-opacity-70 2xl:mx-auto flex max-w-screen-2xl items-center justify-between">
           {/* <!-- logo - start --> */}
-          <div className="bg-gradient-to-r from-blue-300 p-4 md:mr-5">
-            <a href="/" className="inline-flex items-center gap-2.5 font-dancing text-xl font-bold text-black md:text-3xl md:ml-10" aria-label="logo">
+          <div className="bg-gradient-to-r rounded-sm from-blue-300 p-4 md:mr-5">
+            <a href="/" className="inline-flex items-center gap-2.5 font-dancing text-xl font-bold text-black md:text-3xl lg:mx-10" aria-label="logo">
               MSC Bellissima Tour
             </a>
           </div>

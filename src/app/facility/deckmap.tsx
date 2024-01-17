@@ -34,7 +34,7 @@ export default function DeckMap() {
                             <th scope="col" className="px-2 py-4">設備</th>
                           </tr>
                         </thead>
-                        <tbody>
+                        <tbody className='md:font-medium'>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-2 md:px-6 py-4 font-medium">
                               4

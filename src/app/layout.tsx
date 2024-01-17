@@ -1,9 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import Header from './components/header'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'MSC Bellissima Cruise Tour',
@@ -18,7 +15,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="font-notoj">
         <Header />
         <div className="bg-white pb-6 sm:pb-8 lg:pb-12">
           <section className="mx-auto max-w-screen-2xl h-full">
