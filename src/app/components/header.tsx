@@ -18,7 +18,6 @@ export default function Header() {
   };
   const handleMenuOpen = () => { setOpenMenu(!openMenu) }
 
-
   return (
     <>
       <style jsx global>

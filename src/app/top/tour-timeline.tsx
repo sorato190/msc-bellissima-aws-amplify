@@ -6,7 +6,7 @@ export default function TourTimeline() {
 
   const { ref, inView } = useInView({
     threshold: 0.1,
-    // triggerOnce: true
+    triggerOnce: true
   });
 
   return (
