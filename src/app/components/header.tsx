@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import { useState } from "react";
-import { Lora, Kenia, Dancing_Script, Noto_Sans_JP } from "@next/font/google";
+import { Lora, Kenia, Dancing_Script, Noto_Sans_JP } from "next/font/google";
 
 const lora = Lora({ subsets: ["latin"] });
 const dancing = Dancing_Script({ subsets: ["latin"] });
@@ -32,9 +32,9 @@ export default function Header() {
         `}
       </style>
       <header className="z-50 border-b sticky top-0 bg-gray-100">
-        <div className="bg-white bg-opacity-70 2xl:mx-auto flex max-w-screen-2xl items-center justify-between">
+        <div className="bg-white bg-opacity-70 2xl:mx-auto flex max-w-(--breakpoint-2xl) items-center justify-between">
           {/* <!-- logo - start --> */}
-          <div className="bg-gradient-to-r rounded-sm from-blue-300 p-4 md:mr-5">
+          <div className="bg-linear-to-r rounded-sm from-blue-300 p-4 md:mr-5">
             <a
               href="/"
               className="inline-flex items-center gap-2.5 font-dancing text-xl font-bold text-black md:text-3xl lg:mx-10"
@@ -120,7 +120,7 @@ export default function Header() {
           className={
             openMenu
               ? "text-left fixed bg-white right-0 top-0 w-3/5 rounded-sm flex flex-col justify-start pt-8 px-3 ease-linear duration-300"
-              : "fixed right-[-100%] ease-linear duration-300"
+              : "fixed -right-full ease-linear duration-300"
           }
         >
           <ul className="space-y-2 font-base">
@@ -140,9 +140,9 @@ export default function Header() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     strokeLinejoin="round"
-                    stroke-width="2"
+                    strokeWidth="2"
                     d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1"
                   />
                 </svg>
@@ -165,9 +165,9 @@ export default function Header() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     strokeLinejoin="round"
-                    stroke-width="2"
+                    strokeWidth="2"
                     d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1"
                   />
                 </svg>
@@ -190,9 +190,9 @@ export default function Header() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     strokeLinejoin="round"
-                    stroke-width="2"
+                    strokeWidth="2"
                     d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1"
                   />
                 </svg>
@@ -215,9 +215,9 @@ export default function Header() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     strokeLinejoin="round"
-                    stroke-width="2"
+                    strokeWidth="2"
                     d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1"
                   />
                 </svg>

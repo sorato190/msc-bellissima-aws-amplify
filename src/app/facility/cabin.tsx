@@ -10,7 +10,7 @@ export default function Cabin() {
   return (
     <>
       {/* 客室紹介 */}
-      <section className="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <section className="mx-auto max-w-(--breakpoint-2xl) px-4 md:px-8">
         <div className="mb-8 md:flex flex-wrap justify-between md:mb-16">
           <div ref={ref} className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
             <h1 className={inView ? "animate-tracking-in-expand text-2xl font-bold text-black sm:text-3xl md:text-4xl md:mt-5 md:mb-5" : "invisible"}>Cabin Deck 12</h1>

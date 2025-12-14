@@ -16,7 +16,7 @@ export default function Ishinomaki() {
     <>
       {/* デッキ15 ビュッフェの紹介 */}
       {/* デザインサンプル
-      <div className="relative max-w-screen-xl p-4 px-4 mx-auto bg-white sm:px-6 lg:px-8 py-26 lg:mt-20">
+      <div className="relative max-w-(--breakpoint-xl) p-4 px-4 mx-auto bg-white sm:px-6 lg:px-8 py-26 lg:mt-20">
         <div className="relative">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="ml-auto lg:col-start-2 lg:max-w-2xl">
@@ -32,7 +32,7 @@ export default function Ishinomaki() {
               <ul className="gap-6 mt-8 md:grid md:grid-cols-2">
                 <li className="mt-6 lg:mt-0">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full drark:bg-transparent">
+                    <span className="flex items-center justify-center shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full drark:bg-transparent">
                       <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">
                         </path>
@@ -45,7 +45,7 @@ export default function Ishinomaki() {
                 </li>
                 <li className="mt-6 lg:mt-0">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full drark:bg-transparent">
+                    <span className="flex items-center justify-center shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full drark:bg-transparent">
                       <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">
                         </path>
@@ -58,7 +58,7 @@ export default function Ishinomaki() {
                 </li>
                 <li className="mt-6 lg:mt-0">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full drark:bg-transparent">
+                    <span className="flex items-center justify-center shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full drark:bg-transparent">
                       <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">
                         </path>
@@ -71,7 +71,7 @@ export default function Ishinomaki() {
                 </li>
                 <li className="mt-6 lg:mt-0">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full drark:bg-transparent">
+                    <span className="flex items-center justify-center shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full drark:bg-transparent">
                       <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">
                         </path>
@@ -105,11 +105,11 @@ export default function Ishinomaki() {
       <div className="mt-5 mb-5 md:mt-8 md:mb-8">
         <div className={inView ? "animate-tracking-in-expand" : "nvisible"} ref={ref}>
           <h2 className="flex flex-row flex-nowrap items-center mt-24">
-            <span className="flex-grow block border-t border-blue-700"></span>
+            <span className="grow block border-t border-blue-700"></span>
             <span className="font-lora flex-none block mx-10 px-6 py-2.5 text-xl rounded leading-none font-medium bg-sky-500 text-white">
               2023/08/03 石巻
             </span>
-            <span className="flex-grow block border-t border-blue-700"></span>
+            <span className="grow block border-t border-blue-700"></span>
           </h2>
         </div>
       </div>
@@ -117,7 +117,7 @@ export default function Ishinomaki() {
 
       {/* <!-- text - start --> */}
       <div className={inView ? "md:animate-slide-top" : "invisible"} ref={ref}>
-        <p className="mx-auto text-left md:text-center max-w-screen-lg text-gray-900 md:text-xl">
+        <p className="mx-auto text-left md:text-center max-w-(--breakpoint-lg) text-gray-900 md:text-xl">
           ・石巻は宮城県だが、実際にはお隣岩手県の中尊寺金色堂までレンタカーでドライブ<br />
           ・海鮮丼は「いしのまき元気いちば」で食べた。真ん中の写真は道の駅から見える「石ノ森萬画館」</p>
       </div>
@@ -128,21 +128,21 @@ export default function Ishinomaki() {
         {/* <!-- image - start --> */}
         < a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-96" >
           <img src="/gallery/ishinomaki-1.jpg" loading="lazy" alt="Photo by Sorato Ozaki" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
         </a >
         {/* <!-- image - end --> */}
 
         {/* <!-- image - start --> */}
         <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-96">
           <img src="/gallery/ishinomaki-2.jpg" loading="lazy" alt="Photo by Sorato Ozaki" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
         </a>
         {/* <!-- image - end --> */}
 
         {/* <!-- image - start --> */}
         <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-96">
           <img src="/gallery/ishinomaki-3.jpg" loading="lazy" alt="Photo by Sorato Ozaki" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
         </a>
         {/* <!-- image - end --> */}
       </div >

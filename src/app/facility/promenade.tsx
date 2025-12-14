@@ -15,7 +15,7 @@ export default function Promenade() {
         <div className={inView ? "md:animate-tracking-in-expand mb-10 md:mb-16" : "invisible"} ref={ref}>
           <h2 className="mb-4 text-center  text-2xl font-bold text-black sm:text-3xl md:text-4xl md:mt-5 md:mb-5">Deck6 Promenade / Shopping</h2>
 
-          <p className="mx-auto max-w-screen-lg text-gray-900 text-base md:text-xl">
+          <p className="mx-auto max-w-(--breakpoint-lg) text-gray-900 text-base md:text-xl">
             デッキ6/7で吹き抜けになっているプロムナードは天井がLEDで様々な模様に変化する。<br />化粧品、時計、服、宝石などなどショッピングエリアになっている。
           </p>
         </div>

@@ -27,37 +27,37 @@ export default function ApplicationTop() {
             <h1 className="mb-4 text-center text-3xl font-semibold text-gray-900 sm:text-4xl md:mb-6 md:text-left">船内で利用できるスマホアプリ</h1>
             <ul className="space-y-4 text-left text-gray-900 mb-10">
               <li className="flex items-center space-x-3">
-                <svg className="flex-shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                <svg className="shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                 </svg>
                 <span className='leading-relaxed text-xl'>航程の確認</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg className="flex-shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                <svg className="shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                 </svg>
                 <span className='leading-relaxed text-xl'>１日の詳細スケジュール</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg className="flex-shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                <svg className="shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                 </svg>
                 <span className='leading-relaxed text-xl'>シアターショーの予約</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg className="flex-shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                <svg className="shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                 </svg>
                 <span className='leading-relaxed text-xl'>寄港地の天気</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg className="flex-shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                <svg className="shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                 </svg>
                 <span className='leading-relaxed text-xl'>船内のマップ</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg className="flex-shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                <svg className="shrink-0 w-7 h-7 text-green-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                 </svg>
                 <span className='leading-relaxed text-xl'>チャット</span>

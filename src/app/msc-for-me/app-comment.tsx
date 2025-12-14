@@ -13,7 +13,7 @@ export default function ApplicationComment() {
       <h2 className={inView ? "md:animate-tracking-in-contract-bck mb-5 text-center mt-10 mb-2 text-2xl font-semibold text-gray-900" : "invisible"} ref={ref}>
         アプリの利用について
       </h2>
-      <ul className={inView ? "md:animate-tracking-in-expand max-w-screen-xl space-y-1 text-gray-500 list-none list-inside" : "invisible"} ref={ref}>
+      <ul className={inView ? "md:animate-tracking-in-expand max-w-(--breakpoint-xl) space-y-1 text-gray-500 list-none list-inside" : "invisible"} ref={ref}>
         <li className='text-base md:text-xl text-gray-900'>
           ・インターネット接続については24時間プランやクルーズ全日プランなどがあるが、申し込みはしなかった。
         </li>

@@ -22,7 +22,7 @@ export default function TourSchedule() {
         <div className="mb-8 flex flex-wrap justify-between md:mb-16">
           <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/4 lg:pb-24 lg:pt-48">
             <h1 className="mb-4 text-2xl text-black sm:text-3xl md:mb-8 md:text-5xl">台風6号の影響</h1>
-            <p className="mx-auto max-w-screen-lg text-gray-900 text-xl md:text-3xl text-center">
+            <p className="mx-auto max-w-(--breakpoint-lg) text-gray-900 text-xl md:text-3xl text-center">
               航路が変更に！</p>
           </div>
 

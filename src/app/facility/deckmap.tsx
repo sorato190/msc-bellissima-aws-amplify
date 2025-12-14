@@ -15,7 +15,7 @@ export default function DeckMap() {
         <h1 className="text-2xl font-bold text-black sm:text-3xl md:text-4xl">Onboard Guide</h1>
       </div>
       <div className="bg-white py-3 ">
-        <div className="mx-auto max-w-screen-xl px-4 md:px-8">
+        <div className="mx-auto max-w-(--breakpoint-xl) px-4 md:px-8">
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:gap-12">
             <div>
               <div className="md:animate-slide-in-left overflow-hidden md:mt-20 rounded-lg bg-gray-100 shadow-lg md:h-auto">
