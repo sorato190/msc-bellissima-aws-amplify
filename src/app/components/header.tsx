@@ -37,7 +37,7 @@ export default function Header() {
           <div className="bg-linear-to-r rounded-sm from-sky-300 to-cyan-100 p-4 md:mr-5">
             <a
               href="/"
-              className="inline-flex items-center gap-2.5 font-dancing text-xl font-bold text-slate-800 md:text-3xl lg:mx-10"
+              className="inline-flex items-center gap-2.5 font-dancing text-xl font-bold text-slate-800 md:text-2xl lg:mx-10"
               aria-label="logo"
             >
               MSC Bellissima Tour

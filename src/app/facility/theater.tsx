@@ -14,7 +14,7 @@ export default function Theater() {
       {/* <!-- text - start --> */}
       <div className="mt-16 mb-10 md:mb-16">
         <div className={inView ? "md:animate-tracking-in-contract-bck-bottom" : "invisible"} ref={ref}>
-          <h2 className="mb-4 text-center text-2xl font-bold text-slate-600 md:mb-6 text-2xl sm:text-3xl md:mb-8 md:text-4xl">Deck6/7  Theater and Casino</h2>
+          <h2 className="mb-4 text-center text-2xl font-bold text-slate-600 md:mb-6 text-2xl sm:text-3xl md:mb-8 md:text-3xl">Deck6/7  Theater and Casino</h2>
         </div>
         <div className={inView ? "md:animate-slide-top" : "invisible"} ref={ref}>
           <p className="mx-auto max-w-(--breakpoint-lg) text-slate-700 text-base md:text-xl">デッキの前方に無料で見れるロンドンシアター、デッキ後方に有料で見れるカルーセルラウンジのシアターがある。日替わりでショーやバンドの演奏などが行われている。<br />

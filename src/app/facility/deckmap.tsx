@@ -12,7 +12,7 @@ export default function DeckMap() {
     <>
       {/* 各デッキ紹介 */}
       <div className={inView ? "animate-tracking-in-expand mt-15 h-24 w-full flex justify-center items-center" : "md:mt-15 md:h-24 invisible"} ref={ref}>
-        <h1 className="text-2xl font-bold text-slate-800 sm:text-3xl md:text-4xl">Onboard Guide</h1>
+        <h1 className="text-2xl font-bold text-slate-800 sm:text-3xl md:text-3xl">Onboard Guide</h1>
       </div>
       <div className="bg-sky-50 py-3 ">
         <div className="mx-auto max-w-(--breakpoint-xl) px-4 md:px-8">

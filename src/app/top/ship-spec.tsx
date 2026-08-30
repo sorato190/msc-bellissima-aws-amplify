@@ -14,7 +14,7 @@ export default function ShipSpec() {
         ref={ref}
       >
         <div className="h-24 w-full flex justify-center items-center animate-tracking-in-expand">
-          <h1 className="text-2xl font-bold text-slate-800 sm:text-4xl md:mb-8 md:text-6xl">
+          <h1 className="text-2xl font-bold text-slate-800 sm:text-4xl md:mb-8 md:text-5xl">
             Spec
           </h1>
         </div>
@@ -24,7 +24,7 @@ export default function ShipSpec() {
             <div className="overflow-x-auto">
               <div className="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
                 {/* テーブル全体に border を付ける */}
-                <table className="min-w-full border border-sky-200 border-collapse text-center text-base sm:text-lg md:text-2xl font-light">
+                <table className="min-w-full border border-sky-200 border-collapse text-center text-base sm:text-lg md:text-xl font-light">
                   <thead className="bg-sky-50 font-medium">
                     <tr className="border-b border-sky-200">
                       <th scope="col" className="px-3 py-2"></th>

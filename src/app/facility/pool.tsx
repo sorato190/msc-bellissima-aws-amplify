@@ -14,7 +14,7 @@ export default function Pool() {
       {/* <!-- text - start --> */}
       <div className="mt-16 mb-16">
         <div className={inView ? "md:animate-tracking-in-contract-bck-bottom" : "invisible"} ref={ref}>
-          <h2 className="mb-4 text-center text-2xl font-bold text-slate-600 md:mb-6 sm:text-3xl md:mb-8 md:text-4xl">Deck 15 Pool</h2>
+          <h2 className="mb-4 text-center text-2xl font-bold text-slate-600 md:mb-6 sm:text-3xl md:mb-8 md:text-3xl">Deck 15 Pool</h2>
         </div>
         <div className={inView ? "md:animate-slide-top" : "invisible"} ref={ref}>
           <p className="mx-auto max-w-(--breakpoint-lg) text-slate-700 text-base md:text-xl text-center">

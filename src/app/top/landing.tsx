@@ -8,6 +8,8 @@ export default function Top() {
   });
 
   const heightClass = "h-[60vh] sm:h-[70vh] md:h-[85vh] lg:h-screen max-h-[900px]";
+  // 親コンテナの max-width に関わらず画面幅いっぱいに広げる
+  const fullBleedClass = "w-screen relative left-1/2 -ml-[50vw]";
 
   return (
     <>
@@ -15,8 +17,8 @@ export default function Top() {
       <div
         className={
           inView
-            ? `relative ${heightClass} overflow-hidden bg-cover bg-no-repeat text-center`
-            : `${heightClass} invisible`
+            ? `relative ${fullBleedClass} ${heightClass} overflow-hidden bg-cover bg-no-repeat text-center`
+            : `${fullBleedClass} ${heightClass} invisible`
         }
         ref={ref}
       >

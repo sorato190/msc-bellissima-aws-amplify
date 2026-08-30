@@ -16,10 +16,10 @@ export default function TourTimeline() {
           <div className="flex-start flex items-center">
             <div
               className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-blue-500 dark:bg-primary-500"></div>
-            <h4 className="-mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">横浜</h4>
+            <h4 className="-mt-2 text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold">横浜</h4>
           </div>
           <div className="mb-6 ml-6 pb-6">
-            <div className="text-lg sm:text-xl md:text-2xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
+            <div className="text-lg sm:text-xl md:text-xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
             >2 August, 2023
             </div>
             <p className="mb-4 mt-2 text-sm sm:text-base md:text-lg lg:text-xl text-slate-700">
@@ -33,10 +33,10 @@ export default function TourTimeline() {
           <div className="flex-start flex items-center">
             <div
               className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-blue-500 dark:bg-primary-500"></div>
-            <h4 className="-mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">石巻</h4>
+            <h4 className="-mt-2 text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold">石巻</h4>
           </div>
           <div className="mb-6 ml-6 pb-6">
-            <div className="text-lg sm:text-xl md:text-2xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
+            <div className="text-lg sm:text-xl md:text-xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
             >3 August, 2023
             </div>
             <p className="mb-4 mt-2 text-sm sm:text-base md:text-lg lg:text-xl text-slate-700">
@@ -50,10 +50,10 @@ export default function TourTimeline() {
           <div className="flex-start flex items-center">
             <div
               className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-blue-500 dark:bg-primary-500"></div>
-            <h4 className="-mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">宮古</h4>
+            <h4 className="-mt-2 text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold">宮古</h4>
           </div>
           <div className="mb-6 ml-6 pb-6">
-            <div className="text-lg sm:text-xl md:text-2xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
+            <div className="text-lg sm:text-xl md:text-xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
             >4 August, 2023
             </div>
             <p className="mb-4 mt-2 text-sm sm:text-base md:text-lg lg:text-xl text-slate-700">
@@ -65,10 +65,10 @@ export default function TourTimeline() {
           <div className="flex-start flex items-center">
             <div
               className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-blue-500 dark:bg-primary-500"></div>
-            <h4 className="-mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">青森</h4>
+            <h4 className="-mt-2 text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold">青森</h4>
           </div>
           <div className="mb-6 ml-6 pb-6">
-            <div className="text-lg sm:text-xl md:text-2xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
+            <div className="text-lg sm:text-xl md:text-xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
             >5 August, 2023
             </div>
             <p className="mb-4 mt-2 text-sm sm:text-base md:text-lg lg:text-xl text-slate-700">
@@ -80,10 +80,10 @@ export default function TourTimeline() {
           <div className="flex-start flex items-center">
             <div
               className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-blue-500 dark:bg-primary-500"></div>
-            <h4 className="-mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">終日航海</h4>
+            <h4 className="-mt-2 text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold">終日航海</h4>
           </div>
           <div className="mb-6 ml-6 pb-6">
-            <div className="text-lg sm:text-xl md:text-2xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
+            <div className="text-lg sm:text-xl md:text-xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
             >6 August, 2023
             </div>
             <p className="mb-4 mt-2 text-sm sm:text-base md:text-lg lg:text-xl text-slate-700">
@@ -97,10 +97,10 @@ export default function TourTimeline() {
           <div className="flex-start flex items-center">
             <div
               className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-blue-500 dark:bg-primary-500"></div>
-            <h4 className="-mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">釜山</h4>
+            <h4 className="-mt-2 text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold">釜山</h4>
           </div>
           <div className="mb-6 ml-6 pb-6">
-            <div className="text-lg sm:text-xl md:text-2xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
+            <div className="text-lg sm:text-xl md:text-xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
             >7 August, 2023
             </div>
             <p className="mb-4 mt-2 text-sm sm:text-base md:text-lg lg:text-xl text-slate-700">
@@ -113,10 +113,10 @@ export default function TourTimeline() {
           <div className="flex-start flex items-center">
             <div
               className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-blue-500 dark:bg-primary-500"></div>
-            <h4 className="-mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-orange-500"><span className='text-slate-800 text-lg sm:text-xl md:text-2xl'>鹿児島 ⇒ </span>終日航海</h4>
+            <h4 className="-mt-2 text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold text-orange-500"><span className='text-slate-800 text-lg sm:text-xl md:text-xl'>鹿児島 ⇒ </span>終日航海</h4>
           </div>
           <div className="mb-6 ml-6 pb-6">
-            <div className="text-lg sm:text-xl md:text-2xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
+            <div className="text-lg sm:text-xl md:text-xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
             >8 August, 2023
             </div>
             <p className="mb-4 mt-2 text-sm sm:text-base md:text-lg lg:text-xl text-slate-700">
@@ -129,10 +129,10 @@ export default function TourTimeline() {
           <div className="flex-start flex items-center">
             <div
               className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-blue-500 dark:bg-primary-500"></div>
-            <h4 className="-mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-orange-500"><span className='text-slate-800 text-lg sm:text-xl md:text-2xl'>高知 ⇒ </span>室蘭</h4>
+            <h4 className="-mt-2 text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold text-orange-500"><span className='text-slate-800 text-lg sm:text-xl md:text-xl'>高知 ⇒ </span>室蘭</h4>
           </div>
           <div className="mb-6 ml-6 pb-6">
-            <div className="text-lg sm:text-xl md:text-2xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
+            <div className="text-lg sm:text-xl md:text-xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
             >9 August, 2023
             </div>
             <p className="mb-4 mt-2 text-sm sm:text-base md:text-lg lg:text-xl text-slate-700">
@@ -144,10 +144,10 @@ export default function TourTimeline() {
           <div className="flex-start flex items-center">
             <div
               className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-blue-500 dark:bg-primary-500"></div>
-            <h4 className="-mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">終日航海</h4>
+            <h4 className="-mt-2 text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold">終日航海</h4>
           </div>
           <div className="mb-6 ml-6 pb-6">
-            <div className="text-lg sm:text-xl md:text-2xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
+            <div className="text-lg sm:text-xl md:text-xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
             >10 August, 2023
             </div>
             <p className="mb-4 mt-2 text-sm sm:text-base md:text-lg lg:text-xl text-slate-700">
@@ -160,10 +160,10 @@ export default function TourTimeline() {
           <div className="flex-start flex items-center">
             <div
               className="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-blue-500 dark:bg-primary-500"></div>
-            <h4 className="-mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">横浜</h4>
+            <h4 className="-mt-2 text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold">横浜</h4>
           </div>
           <div className="mb-6 ml-6 pb-6">
-            <div className="text-lg sm:text-xl md:text-2xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
+            <div className="text-lg sm:text-xl md:text-xl text-blue-600 transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
             >11 August, 2023
             </div>
             <p className="mb-4 mt-2 text-sm sm:text-base md:text-lg lg:text-xl text-slate-700">

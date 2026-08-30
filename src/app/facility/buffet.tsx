@@ -14,7 +14,7 @@ export default function Buffet() {
       {/* <!-- text - start --> */}
       <div className="mt-16 mb-16">
         <div className={inView ? "md:animate-tracking-in-contract-bck-bottom" : "invisible"} ref={ref}>
-          <h2 className="mb-4 text-center text-2xl font-bold text-slate-600 md:mb-6 sm:text-3xl md:mb-8 md:text-4xl">Deck 15 Buffet</h2>
+          <h2 className="mb-4 text-center text-2xl font-bold text-slate-600 md:mb-6 sm:text-3xl md:mb-8 md:text-3xl">Deck 15 Buffet</h2>
         </div>
         <div className={inView ? "md:animate-slide-top" : "invisible"} ref={ref}>
           <p className="mx-auto max-w-(--breakpoint-lg) text-slate-700 text-base md:text-xl">ビュッフェスペースはかなり広くて料理の種類も豊富。ハンバーガーとフライドポテト、日本食、イタリアンなど色々あるので飽きなかった。<br />水、コーヒー、牛乳、ジュース(数種類)は無料。05:00 - 23:00頃まで空いているので終日航海の日はここで読書をすることも。仕事してる人や、夏休みの宿題をする子供もいた。</p>

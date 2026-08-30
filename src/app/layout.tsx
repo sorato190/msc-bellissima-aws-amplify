@@ -16,11 +16,11 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="font-notoj bg-sky-50 text-slate-800">
+      <body className="font-notoj bg-sky-50 text-slate-800 overflow-x-hidden">
         <OceanBackground />
         <Header />
         <div className="bg-sky-50/10 pb-6 sm:pb-8 lg:pb-12">
-          <section className="mx-auto max-w-(--breakpoint-2xl) h-full">
+          <section className="mx-auto max-w-6xl h-full">
             {children}
           </section >
         </div >

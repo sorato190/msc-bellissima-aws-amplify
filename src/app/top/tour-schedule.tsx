@@ -17,7 +17,7 @@ export default function TourSchedule() {
         ref={ref}
       >
         <div className="h-24 lg:h-48 w-full flex justify-center items-center">
-          <h1 className="text-2xl font-bold text-slate-800 sm:text-3xl md:mb-8 md:text-6xl">
+          <h1 className="text-2xl font-bold text-slate-800 sm:text-3xl md:mb-8 md:text-5xl">
             Tour Schedule
           </h1>
         </div>
@@ -29,10 +29,10 @@ export default function TourSchedule() {
         {/* 台風の影響 */}
         <div className="mb-8 flex flex-wrap justify-between md:mb-16">
           <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/4 lg:pb-24 lg:pt-48">
-            <h1 className="mb-4 text-2xl text-slate-800 sm:text-3xl md:mb-8 md:text-5xl">
+            <h1 className="mb-4 text-2xl text-slate-800 sm:text-3xl md:mb-8 md:text-4xl">
               台風6号の影響
             </h1>
-            <p className="mx-auto max-w-(--breakpoint-lg) text-slate-700 text-xl md:text-3xl text-center">
+            <p className="mx-auto max-w-(--breakpoint-lg) text-slate-700 text-xl md:text-2xl text-center">
               航路が変更に！
             </p>
           </div>

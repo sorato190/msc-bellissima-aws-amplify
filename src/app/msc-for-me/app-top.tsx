@@ -12,7 +12,7 @@ export default function ApplicationTop() {
     <>
       {/* 客室紹介 */}
       <div className={inView ? "animate-tracking-in-expand mt-15 h-24 w-full flex justify-center items-center" : "mt-15 h-24 invisible"} ref={ref}>
-        <h1 className="text-4xl font-bold text-slate-800 sm:text-5xl md:text-6xl">MSC for me</h1>
+        <h1 className="text-4xl font-bold text-slate-800 sm:text-5xl md:text-5xl">MSC for me</h1>
       </div>
       <div className="mt-16 grid gap-8 md:grid-cols-2 lg:gap-12">
         <div>

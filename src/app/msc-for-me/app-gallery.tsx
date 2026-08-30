@@ -13,7 +13,7 @@ export default function ApplicationGallery() {
       {/* <!-- text - start --> */}
       <div className="mt-16 mb-16">
         <div className={inView ? "animate-tracking-in-contract-bck-bottom" : "invisible"} ref={ref}>
-          <h2 className="mb-4 text-center text-2xl font-bold text-slate-600 md:mb-6 md:text-4xl md:mb-8">App image</h2>
+          <h2 className="mb-4 text-center text-2xl font-bold text-slate-600 md:mb-6 md:text-3xl md:mb-8">App image</h2>
         </div>
         <div className={inView ? "md:animate-slide-top" : "invisible"} ref={ref}>
         </div>
