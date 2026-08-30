@@ -16,17 +16,17 @@ export default function Ishinomaki() {
     <>
       {/* デッキ15 ビュッフェの紹介 */}
       {/* デザインサンプル
-      <div className="relative max-w-(--breakpoint-xl) p-4 px-4 mx-auto bg-white sm:px-6 lg:px-8 py-26 lg:mt-20">
+      <div className="relative max-w-(--breakpoint-xl) p-4 px-4 mx-auto bg-sky-50 sm:px-6 lg:px-8 py-26 lg:mt-20">
         <div className="relative">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="ml-auto lg:col-start-2 lg:max-w-2xl">
-              <p className="text-base font-semibold leading-6 text-indigo-500 uppercase">
+              <p className="text-base font-semibold leading-6 text-cyan-600 uppercase">
                 Interactive
               </p>
-              <h4 className="mt-2 text-2xl font-extrabold leading-8 text-gray-900 sm:text-3xl sm:leading-9">
+              <h4 className="mt-2 text-2xl font-extrabold leading-8 text-slate-700 sm:text-3xl sm:leading-9">
                 Interactivity between team members is the key of the success.
               </h4>
-              <p className="mt-4 text-lg leading-6 text-gray-500">
+              <p className="mt-4 text-lg leading-6 text-slate-500">
                 Build a simply and powered collaborative space for all your team. Track, share, measure, you have a fully control, it&#x27;s never be simply and efficient.
               </p>
               <ul className="gap-6 mt-8 md:grid md:grid-cols-2">
@@ -38,7 +38,7 @@ export default function Ishinomaki() {
                         </path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-base font-medium leading-6 text-gray-500">
+                    <span className="ml-4 text-base font-medium leading-6 text-slate-500">
                       Live modifications
                     </span>
                   </div>
@@ -51,7 +51,7 @@ export default function Ishinomaki() {
                         </path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-base font-medium leading-6 text-gray-500">
+                    <span className="ml-4 text-base font-medium leading-6 text-slate-500">
                       Data tracker
                     </span>
                   </div>
@@ -64,7 +64,7 @@ export default function Ishinomaki() {
                         </path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-base font-medium leading-6 text-gray-500">
+                    <span className="ml-4 text-base font-medium leading-6 text-slate-500">
                       24/24 support
                     </span>
                   </div>
@@ -77,7 +77,7 @@ export default function Ishinomaki() {
                         </path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-base font-medium leading-6 text-gray-500">
+                    <span className="ml-4 text-base font-medium leading-6 text-slate-500">
                       Free tips to improve work time
                     </span>
                   </div>
@@ -117,7 +117,7 @@ export default function Ishinomaki() {
 
       {/* <!-- text - start --> */}
       <div className={inView ? "md:animate-slide-top" : "invisible"} ref={ref}>
-        <p className="mx-auto text-left md:text-center max-w-(--breakpoint-lg) text-gray-900 md:text-xl">
+        <p className="mx-auto text-left md:text-center max-w-(--breakpoint-lg) text-slate-700 md:text-xl">
           ・石巻は宮城県だが、実際にはお隣岩手県の中尊寺金色堂までレンタカーでドライブ<br />
           ・海鮮丼は「いしのまき元気いちば」で食べた。真ん中の写真は道の駅から見える「石ノ森萬画館」</p>
       </div>
@@ -126,23 +126,23 @@ export default function Ishinomaki() {
       {/* <!-- Image - start --> */}
       < div className="md:mx-10 grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8" >
         {/* <!-- image - start --> */}
-        < a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-96" >
+        < a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-sky-50 shadow-lg md:h-96" >
           <img src="/gallery/ishinomaki-1.jpg" loading="lazy" alt="Photo by Sorato Ozaki" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-cyan-950 via-transparent to-transparent opacity-50"></div>
         </a >
         {/* <!-- image - end --> */}
 
         {/* <!-- image - start --> */}
-        <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-96">
+        <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-sky-50 shadow-lg md:h-96">
           <img src="/gallery/ishinomaki-2.jpg" loading="lazy" alt="Photo by Sorato Ozaki" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-cyan-950 via-transparent to-transparent opacity-50"></div>
         </a>
         {/* <!-- image - end --> */}
 
         {/* <!-- image - start --> */}
-        <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-96">
+        <a href="#" className="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-sky-50 shadow-lg md:h-96">
           <img src="/gallery/ishinomaki-3.jpg" loading="lazy" alt="Photo by Sorato Ozaki" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-cyan-950 via-transparent to-transparent opacity-50"></div>
         </a>
         {/* <!-- image - end --> */}
       </div >

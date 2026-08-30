@@ -14,7 +14,7 @@ export default function ShipSpec() {
         ref={ref}
       >
         <div className="h-24 w-full flex justify-center items-center animate-tracking-in-expand">
-          <h1 className="text-2xl font-bold text-black sm:text-4xl md:mb-8 md:text-6xl">
+          <h1 className="text-2xl font-bold text-slate-800 sm:text-4xl md:mb-8 md:text-6xl">
             Spec
           </h1>
         </div>
@@ -24,9 +24,9 @@ export default function ShipSpec() {
             <div className="overflow-x-auto">
               <div className="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
                 {/* テーブル全体に border を付ける */}
-                <table className="min-w-full border border-gray-300 border-collapse text-center text-base sm:text-lg md:text-2xl font-light">
-                  <thead className="bg-gray-100 font-medium">
-                    <tr className="border-b border-gray-300">
+                <table className="min-w-full border border-sky-200 border-collapse text-center text-base sm:text-lg md:text-2xl font-light">
+                  <thead className="bg-sky-50 font-medium">
+                    <tr className="border-b border-sky-200">
                       <th scope="col" className="px-3 py-2"></th>
                       <th scope="col" className="px-3 py-2">
                         MSC Bellissima
@@ -37,7 +37,7 @@ export default function ShipSpec() {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="border-b border-gray-300">
+                    <tr className="border-b border-sky-200">
                       <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                         総トン数
                       </td>
@@ -48,7 +48,7 @@ export default function ShipSpec() {
                         50,444t
                       </td>
                     </tr>
-                    <tr className="border-b border-gray-300">
+                    <tr className="border-b border-sky-200">
                       <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                         全長
                       </td>
@@ -59,7 +59,7 @@ export default function ShipSpec() {
                         241m
                       </td>
                     </tr>
-                    <tr className="border-b border-gray-300">
+                    <tr className="border-b border-sky-200">
                       <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                         就航年
                       </td>
@@ -70,7 +70,7 @@ export default function ShipSpec() {
                         2006年2月
                       </td>
                     </tr>
-                    <tr className="border-b border-gray-300">
+                    <tr className="border-b border-sky-200">
                       <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                         乗客定員
                       </td>
@@ -81,7 +81,7 @@ export default function ShipSpec() {
                         872名
                       </td>
                     </tr>
-                    <tr className="border-b border-gray-300">
+                    <tr className="border-b border-sky-200">
                       <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                         客室数
                       </td>
@@ -92,7 +92,7 @@ export default function ShipSpec() {
                         436室
                       </td>
                     </tr>
-                    <tr className="border-b border-gray-300">
+                    <tr className="border-b border-sky-200">
                       <td className="whitespace-nowrap px-2 md:px-4 py-2 font-medium">
                         デッキ数
                       </td>

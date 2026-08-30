@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import Header from './components/header'
+import OceanBackground from './components/ocean-background'
 
 export const metadata: Metadata = {
   title: 'MSC Bellissima Cruise Tour',
@@ -15,9 +16,10 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="font-notoj">
+      <body className="font-notoj bg-sky-50 text-slate-800">
+        <OceanBackground />
         <Header />
-        <div className="bg-white pb-6 sm:pb-8 lg:pb-12">
+        <div className="bg-sky-50/10 pb-6 sm:pb-8 lg:pb-12">
           <section className="mx-auto max-w-(--breakpoint-2xl) h-full">
             {children}
           </section >

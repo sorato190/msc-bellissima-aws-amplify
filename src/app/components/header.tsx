@@ -13,7 +13,7 @@ export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
   const currPath = usePathname();
   const isActiveLink = (path: string) => {
-    return currPath === path ? "text-indigo-500" : "text-gray-900";
+    return currPath === path ? "text-cyan-600" : "text-slate-700";
   };
   const handleMenuOpen = () => {
     setOpenMenu(!openMenu);
@@ -31,13 +31,13 @@ export default function Header() {
           }
         `}
       </style>
-      <header className="z-50 border-b sticky top-0 bg-gray-100">
-        <div className="bg-white bg-opacity-70 2xl:mx-auto flex max-w-(--breakpoint-2xl) items-center justify-between">
+      <header className="z-50 border-b border-sky-100 sticky top-0 bg-sky-50/80 backdrop-blur-md">
+        <div className="bg-white/50 backdrop-blur-sm 2xl:mx-auto flex max-w-(--breakpoint-2xl) items-center justify-between">
           {/* <!-- logo - start --> */}
-          <div className="bg-linear-to-r rounded-sm from-blue-300 p-4 md:mr-5">
+          <div className="bg-linear-to-r rounded-sm from-sky-300 to-cyan-100 p-4 md:mr-5">
             <a
               href="/"
-              className="inline-flex items-center gap-2.5 font-dancing text-xl font-bold text-black md:text-3xl lg:mx-10"
+              className="inline-flex items-center gap-2.5 font-dancing text-xl font-bold text-slate-800 md:text-3xl lg:mx-10"
               aria-label="logo"
             >
               MSC Bellissima Tour
@@ -55,22 +55,22 @@ export default function Header() {
                 <div
                   className={
                     openMenu
-                      ? "w-7 h-0.5 bg-gray-700 translate-y-2.5 rotate-45 transition duration-500 ease-in-out"
-                      : "w-7 h-0.5 bg-gray-700 transition duration-500 ease-in-out"
+                      ? "w-7 h-0.5 bg-slate-600 translate-y-2.5 rotate-45 transition duration-500 ease-in-out"
+                      : "w-7 h-0.5 bg-slate-600 transition duration-500 ease-in-out"
                   }
                 />
                 <div
                   className={
                     openMenu
                       ? "opacity-0 transition duration-500 ease-in-out"
-                      : "w-7 h-0.5 bg-gray-700 transition duration-500 ease-in-out"
+                      : "w-7 h-0.5 bg-slate-600 transition duration-500 ease-in-out"
                   }
                 />
                 <div
                   className={
                     openMenu
-                      ? "w-7 h-0.5 bg-gray-700 -rotate-45 transition duration-500 ease-in-out"
-                      : "w-7 h-0.5 bg-gray-700 transition duration-500 ease-in-out"
+                      ? "w-7 h-0.5 bg-slate-600 -rotate-45 transition duration-500 ease-in-out"
+                      : "w-7 h-0.5 bg-slate-600 transition duration-500 ease-in-out"
                   }
                 />
               </button>
@@ -79,11 +79,11 @@ export default function Header() {
 
           {/* <!-- nav - lg --> */}
           <nav className="hidden gap-12 lg:flex md:mr-8">
-            {/* <Link className={`text-lg font-semibold ${isActiveLink('/')} transition duration-100 hover:text-indigo-500 active:text-indigo-700`} href='/'>TOP</Link> */}
+            {/* <Link className={`text-lg font-semibold ${isActiveLink('/')} transition duration-100 hover:text-cyan-600 active:text-cyan-700`} href='/'>TOP</Link> */}
             <Link
               className={`font-lora text-base font-semibold ${isActiveLink(
                 "/gallery"
-              )} transition duration-100 hover:text-indigo-500 active:text-indigo-700`}
+              )} transition duration-100 hover:text-cyan-600 active:text-cyan-700`}
               href="/gallery"
             >
               Gallery
@@ -91,7 +91,7 @@ export default function Header() {
             <Link
               className={`font-lora text-base font-semibold ${isActiveLink(
                 "/facility"
-              )} transition duration-100 hover:text-indigo-500 active:text-indigo-700`}
+              )} transition duration-100 hover:text-cyan-600 active:text-cyan-700`}
               href="/facility"
             >
               Facility
@@ -99,7 +99,7 @@ export default function Header() {
             <Link
               className={`font-lora text-base font-semibold ${isActiveLink(
                 "/msc-for-me"
-              )} transition duration-100 hover:text-indigo-500 active:text-indigo-700`}
+              )} transition duration-100 hover:text-cyan-600 active:text-cyan-700`}
               href="/msc-for-me"
             >
               Aplication
@@ -107,7 +107,7 @@ export default function Header() {
             <Link
               className={`font-lora text-base font-semibold ${isActiveLink(
                 "/built-on-aws"
-              )} transition duration-100 hover:text-indigo-500 active:text-indigo-700`}
+              )} transition duration-100 hover:text-cyan-600 active:text-cyan-700`}
               href="/built-on-aws"
             >
               Built on AWS
@@ -119,7 +119,7 @@ export default function Header() {
         <nav
           className={
             openMenu
-              ? "text-left fixed bg-white right-0 top-0 w-3/5 rounded-sm flex flex-col justify-start pt-8 px-3 ease-linear duration-300"
+              ? "text-left fixed bg-sky-50/95 backdrop-blur-md right-0 top-0 w-3/5 rounded-sm flex flex-col justify-start pt-8 px-3 ease-linear duration-300"
               : "fixed -right-full ease-linear duration-300"
           }
         >
@@ -129,10 +129,10 @@ export default function Header() {
                 href="/gallery"
                 className={`${isActiveLink(
                   "/gallery"
-                )} flex items-center p-2 text-gray-900 rounded-lg hover:bg-blue-100 group`}
+                )} flex items-center p-2 text-slate-700 rounded-lg hover:bg-sky-100 group`}
               >
                 <svg
-                  className="w-5 h-5 text-gray-800"
+                  className="w-5 h-5 text-slate-500"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -154,10 +154,10 @@ export default function Header() {
                 href="/facility"
                 className={`${isActiveLink(
                   "/facility"
-                )} flex items-center p-2 text-gray-900 rounded-lg hover:bg-blue-100 group`}
+                )} flex items-center p-2 text-slate-700 rounded-lg hover:bg-sky-100 group`}
               >
                 <svg
-                  className="w-5 h-5 text-gray-800"
+                  className="w-5 h-5 text-slate-500"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -179,10 +179,10 @@ export default function Header() {
                 href="/msc-for-me"
                 className={`${isActiveLink(
                   "/msc-for-me"
-                )} flex items-center p-2 text-gray-900 rounded-lg hover:bg-blue-100 group`}
+                )} flex items-center p-2 text-slate-700 rounded-lg hover:bg-sky-100 group`}
               >
                 <svg
-                  className="w-5 h-5 text-gray-800"
+                  className="w-5 h-5 text-slate-500"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -204,10 +204,10 @@ export default function Header() {
                 href="/built-on-aws"
                 className={`${isActiveLink(
                   "/built-on-aws"
-                )} flex items-center p-2 text-gray-900 rounded-lg hover:bg-blue-100 group`}
+                )} flex items-center p-2 text-slate-700 rounded-lg hover:bg-sky-100 group`}
               >
                 <svg
-                  className="w-5 h-5 text-gray-800e"
+                  className="w-5 h-5 text-slate-500"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

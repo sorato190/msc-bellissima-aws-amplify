@@ -31,13 +31,13 @@ export default function Top() {
         {/* テキストオーバーレイ */}
         <div className="absolute inset-0 z-10 flex items-end justify-center px-4">
           <h3 className="flex items-center w-full">
-            <span className="grow bg-linear-to-r from-transparent to-gray-200 rounded h-0.5 mb-5 sm:mb-10 lg:mb-20"></span>
-            <div className="mb-5 sm:mb-10 lg:mb-20 bg-gray-400 bg-opacity-50 text-gray-200 p-2 sm:p-3 md:p-5 border-2 border-gray-200 relative">
+            <span className="grow bg-linear-to-r from-transparent to-sky-100 rounded h-0.5 mb-5 sm:mb-10 lg:mb-20"></span>
+            <div className="mb-5 sm:mb-10 lg:mb-20 bg-cyan-950/40 backdrop-blur-sm text-sky-50 p-2 sm:p-3 md:p-5 border-2 border-sky-100/70 relative">
               <h2 className="font-dancing text-sm sm:text-xl md:text-3xl font-bold whitespace-nowrap">
                 MSC Bellissima Cruise Tour
               </h2>
             </div>
-            <span className="grow bg-linear-to-l from-transparent to-gray-200 rounded h-0.5 mb-5 sm:mb-10 lg:mb-20"></span>
+            <span className="grow bg-linear-to-l from-transparent to-sky-100 rounded h-0.5 mb-5 sm:mb-10 lg:mb-20"></span>
           </h3>
         </div>
       </div>

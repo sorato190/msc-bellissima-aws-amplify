@@ -21,9 +21,11 @@
     "react-dom": "19.2.8",
     "react-intersection-observer": "^11.0.1",
     "tailwindcss": "^4.3.3",
+    "three": "^0.185.1",
     "typescript": "6.0.3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.3"
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/three": "^0.185.4"
   }
 }

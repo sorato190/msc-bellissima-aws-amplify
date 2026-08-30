@@ -13,19 +13,19 @@ export default function Cabin() {
       <section className="mx-auto max-w-(--breakpoint-2xl) px-4 md:px-8">
         <div className="mb-8 md:flex flex-wrap justify-between md:mb-16">
           <div ref={ref} className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
-            <h1 className={inView ? "animate-tracking-in-expand text-2xl font-bold text-black sm:text-3xl md:text-4xl md:mt-5 md:mb-5" : "invisible"}>Cabin Deck 12</h1>
+            <h1 className={inView ? "animate-tracking-in-expand text-2xl font-bold text-slate-800 sm:text-3xl md:text-4xl md:mt-5 md:mb-5" : "invisible"}>Cabin Deck 12</h1>
 
-            <p className={inView ? "md:animate-slide-top max-w-md leading-relaxed text-gray-900 text-base xl:text-xl" : "invisible"}>
+            <p className={inView ? "md:animate-slide-top max-w-md leading-relaxed text-slate-700 text-base xl:text-xl" : "invisible"}>
               デッキ12の海側バルコニー客室。<br />
               海が見えるバルコニーがついてて良かったが、日中は部屋にいないので海が見れなくてもいいかも。</p>
           </div>
 
           <div className="tracking-in-contract-bck-bottom mb-12 md:flex w-full md:mb-16 lg:w-2/3">
-            <div className="mb-5 md:mb-0 md:relative md:left-12 md:top-12 z-10 md:-ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:left-16 md:top-16 lg:ml-0">
+            <div className="mb-5 md:mb-0 md:relative md:left-12 md:top-12 z-10 md:-ml-12 overflow-hidden rounded-lg bg-sky-50 shadow-lg md:left-16 md:top-16 lg:ml-0">
               <img src="/facility/facility-cabin-1.jpg" loading="lazy" alt="Photo by Ozaki Sorato" className="h-full w-full object-cover object-center" />
             </div>
 
-            <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
+            <div className="overflow-hidden rounded-lg bg-sky-50 shadow-lg">
               <img src="/facility/facility-cabin-2.jpg" loading="lazy" alt="Photo by Ozaki Sorato" className="h-full w-full object-cover object-center" />
             </div>
           </div>
